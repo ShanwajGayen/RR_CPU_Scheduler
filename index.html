@@ -118,7 +118,7 @@
 
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <div>
-                            <label class="block text-xs font-medium text-slate-400 mb-1.5">Time Quantum ($q$)</label>
+                            <label class="block text-xs font-medium text-slate-400 mb-1.5">Time Quantum (tq)</label>
                             <div class="relative flex items-center">
                                 <input type="number" id="timeQuantum" min="1" max="20" value="2" oninput="validateAndUpdate()"
                                        class="w-full bg-slate-900/90 border border-slate-700/80 rounded-xl px-3.5 py-2 text-sm font-semibold font-mono text-indigo-400 focus:ring-2 focus:ring-indigo-500/50 focus:border-indigo-500 outline-none transition">
@@ -266,12 +266,12 @@
                         <thead>
                             <tr class="text-slate-400 border-b border-slate-800 font-semibold uppercase tracking-wider">
                                 <th class="py-2.5 px-3">Process ID</th>
-                                <th class="py-2.5 px-3">Arrival (AT)</th>
-                                <th class="py-2.5 px-3">Burst (BT)</th>
-                                <th class="py-2.5 px-3">Completion (CT)</th>
-                                <th class="py-2.5 px-3">Turnaround (TAT)</th>
-                                <th class="py-2.5 px-3">Waiting (WT)</th>
-                                <th class="py-2.5 px-3">Response (RT)</th>
+                                <th class="py-2.5 px-3">Arrival Time (AT)</th>
+                                <th class="py-2.5 px-3">Burst Time (BT)</th>
+                                <th class="py-2.5 px-3">Completion Time (CT)</th>
+                                <th class="py-2.5 px-3">Turnaround Time(TAT)</th>
+                                <th class="py-2.5 px-3">Waiting Time (WT)</th>
+                                <th class="py-2.5 px-3">Response Time (RT)</th>
                             </tr>
                         </thead>
                         <tbody id="metricsTableBody" class="divide-y divide-slate-800/60 font-mono">
